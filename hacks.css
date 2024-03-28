@@ -1,8 +1,8 @@
-.article__item {
+/*.article__item {*/
 
-}
+/*}*/
 
-,attachments {
+.attachments {
      display: flex;
      margin: auto;
      justify-content: center;
