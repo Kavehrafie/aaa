@@ -1,3 +1,11 @@
 .article__item {
 
 }
+
+,attachments {
+     display: flex;
+     margin: auto;
+     justify-content: center;
+     gap: 2em;
+ }
+
