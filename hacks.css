@@ -9,5 +9,8 @@
      gap: 2em;
  }
 
+.is-submenu-item:first-child {
+    border-top: 1px solid #8E8D8A;
+}
 /* new 2*/
 /*https://cdn.jsdelivr.net/gh/Kavehrafie/aaa/hacks.css*/
