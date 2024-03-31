@@ -50,7 +50,7 @@ body:not(.browse) #content {
     }
 }
 
-@media (width <= 485px) {
+@media (width <= 560px) {
     .grid {
         display: block;
     }
