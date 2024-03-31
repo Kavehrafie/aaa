@@ -19,7 +19,10 @@
 .article__item {
     float: none;
     padding: 10px;
+    width: auto;
     margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
     transition: box-shadow 0.5s; /* Adding a transition for a smooth effect */
 }
 
@@ -40,9 +43,12 @@
     }
 }
 
-@media (width <= 500px) {
+@media (width <= 800px) {
     .grid {
         display: block;
+    }
+    .grid .article__item {
+        margin-bottom: 10px;
     }
 }
 /*https://cdn.jsdelivr.net/gh/Kavehrafie/aaa/hacks.css*/
