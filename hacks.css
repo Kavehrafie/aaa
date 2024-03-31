@@ -17,6 +17,9 @@
 /* Index page styling */
 
 .article__item {
+    float: none;
+    padding: 10px;
+    margin: 0;
     transition: box-shadow 0.5s; /* Adding a transition for a smooth effect */
 }
 
@@ -31,7 +34,7 @@
     gap: var(--grid-gap);
 }
 
-@media (width <= 800px) {
+@media (width <= 960px) {
     .grid {
         grid-template-columns: repeat(2, 1fr);
     }
