@@ -9,6 +9,13 @@
      gap: 2em;
  }
 
+body:not(.browse) #content {
+    max-width: max(90%, 980px);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
 /* Fixes the drop menu top border */
 .is-submenu-item:first-child {
     border-top: 1px solid #8E8D8A;
