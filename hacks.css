@@ -38,6 +38,10 @@ body:not(.browse) #content {
     background-color: white;
 }
 
+.article__item .caption a {
+    color: #323538;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
