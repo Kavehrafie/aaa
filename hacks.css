@@ -19,7 +19,7 @@
 .article__item {
     float: none;
     padding: 10px;
-    width: auto;
+    max-width: none;
     margin: 0;
     overflow: hidden;
     text-overflow: ellipsis;
