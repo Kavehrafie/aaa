@@ -14,6 +14,17 @@
     border-top: 1px solid #8E8D8A;
 }
 
+/* Index page styling */
+
+.article__item {
+    transition: box-shadow 0.5s; /* Adding a transition for a smooth effect */
+}
+
+.article__item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adding a box shadow on hover */
+    background-color: white;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
