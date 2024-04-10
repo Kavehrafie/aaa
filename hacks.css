@@ -54,6 +54,13 @@ body:not(.browse) #content {
     grid-auto-columns: 200px;
 }
 
+.grid.grid-auto-column-md {
+    grid-template-columns: none;
+    grid-auto-flow: column;
+    grid-auto-columns: 350px;
+}
+
+
 .grid.grid-center {
     justify-content: center;
 }
