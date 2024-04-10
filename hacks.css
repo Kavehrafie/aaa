@@ -58,6 +58,11 @@ body:not(.browse) #content {
     justify-content: center;
 }
 
+.item-align-bottom {
+    align-items: end;
+}
+
+
 .caption p {
       line-height: normal;
       font-size: 1em;
