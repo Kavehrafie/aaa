@@ -48,6 +48,13 @@ body:not(.browse) #content {
     gap: var(--grid-gap);
 }
 
+.grid-auto-column {
+    grid-auto-flow: column;
+    grid-auto-columns: 200px;
+    justify-content: center;
+}
+
+
 @media (width <= 960px) {
     .grid {
         grid-template-columns: repeat(2, 1fr);
