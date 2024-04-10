@@ -58,9 +58,10 @@ body:not(.browse) #content {
     justify-content: center;
 }
 
-.caption {
-    font-size: 0.8em;
-    line-height: normal;
+.caption p {
+      line-height: normal;
+      font-size: 1.2em;
+      padding: 1em 0;
 }
 
 @media (width <= 960px) {
