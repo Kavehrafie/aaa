@@ -62,6 +62,9 @@ body:not(.browse) #content {
     align-items: end;
 }
 
+.item-align-center{
+    align-items: center;
+}
 
 .caption p {
       line-height: normal;
