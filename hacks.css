@@ -49,6 +49,7 @@ body:not(.browse) #content {
 }
 
 .grid.grid-auto-column-sm {
+    grid-template-columns: none;
     grid-auto-flow: column;
     grid-auto-columns: 200px;
 }
