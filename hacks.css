@@ -58,6 +58,11 @@ body:not(.browse) #content {
     justify-content: center;
 }
 
+.caption {
+    font-size: 0.8em;
+    line-height: normal;
+}
+
 @media (width <= 960px) {
     .grid {
         grid-template-columns: repeat(2, 1fr);
