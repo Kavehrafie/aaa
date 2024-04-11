@@ -110,7 +110,8 @@ body:not(.browse) #content {
         margin-bottom: 10px;
     }
 
-    .grid.grid-auto-column-sm:not(:first-child), .grid.grid-auto-column-md:not(:first-child) {
+    .grid.grid-auto-column-sm .asset:not(:first-child),
+    .grid.grid-auto-column-md .asset:not(:first-child) {
         padding: 0 1em;
     }
 }
