@@ -51,14 +51,14 @@ body:not(.browse) #content {
 .grid.grid-auto-column-sm {
     grid-template-columns: none;
     grid-auto-flow: column;
-    grid-auto-columns: clamp(50px, 20%, 400px);
+    grid-auto-columns: clamp(50px, 10%, 400px);
     padding-bottom: 2em;
 }
 
 .grid.grid-auto-column-md {
     grid-template-columns: none;
     grid-auto-flow: column;
-    grid-auto-columns: clamp(100px, 40%, 600px);
+    grid-auto-columns: clamp(200px, 20%, 600px);
     padding-bottom: 2em;
 }
 
