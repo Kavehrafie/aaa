@@ -69,7 +69,7 @@ body:not(.browse) #content {
     gap: 1em;
 }
 
-.px-10 {
+.px-\[10\%\] {
     padding-left: 10%;
     padding-right: 10%;
 }
