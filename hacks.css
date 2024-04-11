@@ -49,14 +49,14 @@ body:not(.browse) #content {
 }
 
 .grid.grid-auto-column-sm {
-    grid-template-columns: none;
+    grid-template-columns: repeat(auto-fill, 100px) ;
     grid-auto-flow: column;
     grid-auto-columns: clamp(50px, 10%, 400px);
     padding-bottom: 2em;
 }
 
 .grid.grid-auto-column-md {
-    grid-template-columns: none;
+    grid-template-columns: repeat(auto-fill, 150px);
     grid-auto-flow: column;
     grid-auto-columns: clamp(200px, 20%, 600px);
     padding-bottom: 2em;
