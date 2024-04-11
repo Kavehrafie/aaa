@@ -62,6 +62,13 @@ body:not(.browse) #content {
     gap: 1em;
 }
 
+.grid.grid-auto-column-lg {
+    width: 100%;
+    grid-auto-flow: row;
+    padding-bottom: 1em;
+    gap: 1em;
+}
+
 
 .grid.grid-center {
     justify-content: center;
@@ -75,7 +82,9 @@ body:not(.browse) #content {
     align-items: center;
 }
 
-.caption p {
+.grid.grid-auto-column-sm .caption p,
+.grid.grid-auto-column-md .caption p,
+.grid.grid-auto-column-lg .caption p {
     line-height: normal;
     font-size: 1em;
     padding: 1em 0;
