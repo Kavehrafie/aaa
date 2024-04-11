@@ -58,7 +58,6 @@ body:not(.browse) #content {
 .grid.grid-auto-column-md {
     grid-template-columns: repeat(auto-fill, clamp(100px, 25%, 400px));
     grid-auto-flow: column;
-
     padding-bottom: 2em;
 }
 
@@ -109,6 +108,10 @@ body:not(.browse) #content {
     }
     .grid .article__item {
         margin-bottom: 10px;
+    }
+
+    .grid.grid-auto-column-sm:not(:first-child), .grid.grid-auto-column-md:not(:first-child) {
+        padding: 0 1em;
     }
 }
 /*https://cdn.jsdelivr.net/gh/Kavehrafie/aaa/hacks.css*/
