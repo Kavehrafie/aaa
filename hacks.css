@@ -3,11 +3,11 @@
 }
 
 .attachments {
-     display: flex;
-     margin: auto;
-     justify-content: center;
-     gap: 2em;
- }
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    gap: 2em;
+}
 
 body:not(.browse) #content {
     max-width: max(90%, 980px);
@@ -49,18 +49,18 @@ body:not(.browse) #content {
 }
 
 .grid.grid-auto-column-sm {
-    grid-template-columns: repeat(auto-fill, 100px) ;
+    grid-template-columns: repeat(auto-fill, 100px);
     grid-auto-flow: column;
     grid-auto-columns: clamp(50px, 10%, 400px);
-    padding-bottom: 2em;
-       gap: 1em;
+    padding-bottom: 1em;
+    gap: 1em;
 }
 
 .grid.grid-auto-column-md {
     grid-template-columns: repeat(auto-fill, clamp(100px, 30%, 400px));
     grid-auto-flow: column;
-    padding-bottom: 2em;
-       gap: 1em;
+    padding-bottom: 1em;
+    gap: 1em;
 }
 
 
@@ -72,14 +72,14 @@ body:not(.browse) #content {
     align-items: end;
 }
 
-.item-align-center{
+.item-align-center {
     align-items: center;
 }
 
 .caption p {
-      line-height: normal;
-      font-size: 1em;
-      padding: 1em 0;
+    line-height: normal;
+    font-size: 1em;
+    padding: 1em 0;
 }
 
 @media (width <= 1920px) {
@@ -108,6 +108,7 @@ body:not(.browse) #content {
     .grid {
         display: block;
     }
+
     .grid .article__item {
         margin-bottom: 10px;
     }
@@ -117,4 +118,5 @@ body:not(.browse) #content {
         padding-top: 1em;
     }
 }
+
 /*https://cdn.jsdelivr.net/gh/Kavehrafie/aaa/hacks.css*/
