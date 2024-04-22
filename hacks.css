@@ -52,6 +52,7 @@ body:not(.browse) #content {
 .flex {
     display: flex;
     gap: var(--grid-gap);
+    padding-bottom: 1em;
 }
 
 .grid.grid-auto-column-sm {
@@ -111,12 +112,12 @@ body:not(.browse) #content {
     .grid.grid-auto-column-sm {
         grid-template-columns: repeat(auto-fit, clamp(50px, 27%, 200px));
 
-        padding-bottom: 1.6em;
+        padding-bottom: 1.4em;
     }
 
     .grid.grid-auto-column-md {
         grid-template-columns: repeat(auto-fit, clamp(100px, 30%, 250px));
-
+        padding-bottom: 1.6em;
     }
 
     .grid {
