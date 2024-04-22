@@ -134,7 +134,9 @@ body:not(.browse) #content {
     }
 
     .grid.grid-auto-column-sm .asset:not(:first-child),
-    .grid.grid-auto-column-md .asset:not(:first-child) {
+    .grid.grid-auto-column-md .asset:not(:first-child),
+    .flex .asset:not(:first-child),
+    .flex .asset:not(:first-child) {
         padding-top: 1em;
     }
 }
