@@ -55,8 +55,12 @@ body:not(.browse) #content {
     padding-bottom: 1em;
 }
 
-.flex .asset img {
-    max-height: 600px;
+.flex.flex-md .asset img {
+    max-height: 450px;
+}
+
+.flex-center {
+    justify-content: center;
 }
 
 .grid.grid-auto-column-sm {
