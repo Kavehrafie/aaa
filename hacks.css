@@ -55,10 +55,19 @@ body:not(.browse) #content {
     padding-bottom: 1em;
 }
 
+.flex .asset {
+    display: flex;
+    flex-direction: column;
+}
 .flex .asset img {
     width: 100%;
     object-fit: contain;
 }
+
+.flex a {
+    display: flex;
+}
+
 .flex.flex-md .asset img {
     max-height: 450px;
 }
