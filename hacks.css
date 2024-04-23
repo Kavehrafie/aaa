@@ -101,6 +101,7 @@ body:not(.browse) #content {
     align-items: center;
 }
 
+.flex .caption p,
 .grid.grid-auto-column-sm .caption p,
 .grid.grid-auto-column-md .caption p,
 .grid.grid-auto-column-lg .caption p {
