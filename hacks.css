@@ -66,6 +66,7 @@ body:not(.browse) #content {
 
 .flex a {
     display: flex;
+    align-items: end;
 }
 
 .flex.flex-md .asset img {
