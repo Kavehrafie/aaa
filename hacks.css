@@ -55,6 +55,10 @@ body:not(.browse) #content {
     padding-bottom: 1em;
 }
 
+.flex .asset img {
+    width: 100%;
+    object-fit: contain;
+}
 .flex.flex-md .asset img {
     max-height: 450px;
 }
