@@ -95,7 +95,7 @@ body:not(.browse) #content {
 }
 
 .grid.grid-auto-column-md {
-    grid-template-columns: repeat(auto-fit, clamp(100px, 45%, 315px));
+    grid-template-columns: repeat(auto-fit, clamp(100px, 45%, 346px));
     grid-auto-flow: column;
     padding-bottom: 1em;
     gap: 1em;
