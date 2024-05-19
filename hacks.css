@@ -43,6 +43,9 @@ body:not(.browse) #content {
     color: #323538;
 }
 
+.article__item p {
+    line-height: inherit;
+}
 .grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
