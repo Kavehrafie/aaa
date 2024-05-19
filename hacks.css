@@ -182,6 +182,9 @@ body:not(.browse) #content {
     .asset {
         padding: 0 10%;
     }
+    .article__item .asset {
+        padding: 0 0;
+    }
 }
 
 .entry-item {
