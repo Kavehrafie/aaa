@@ -45,10 +45,11 @@ body:not(.browse) #content {
 
 .article__item p {
     line-height: inherit;
-    white-space: pre-wrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    margin-bottom: 5px;
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;
 }
 .grid {
     display: grid;
