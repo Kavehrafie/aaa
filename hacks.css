@@ -181,4 +181,9 @@ body:not(.browse) #content {
 .entry-item h3 {
     font-size: 1em;
 }
+
+.asset img {
+    width: 100%;
+    object-fit: contain;
+}
 /*https://cdn.jsdelivr.net/gh/Kavehrafie/aaa/hacks.css*/
