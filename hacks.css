@@ -173,6 +173,15 @@ body:not(.browse) #content {
     .flex .asset:not(:first-child) {
         padding-top: 1em;
     }
+
+    .asset img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .asset {
+        padding: 0 10%;
+    }
 }
 
 .entry-item {
@@ -182,8 +191,5 @@ body:not(.browse) #content {
     font-size: 1em;
 }
 
-.asset img {
-    width: 100%;
-    object-fit: contain;
-}
+
 /*https://cdn.jsdelivr.net/gh/Kavehrafie/aaa/hacks.css*/
