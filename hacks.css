@@ -87,6 +87,10 @@ body:not(.browse) #content {
     justify-content: center;
 }
 
+.asset a {
+    display: inline;
+}
+
 .grid.grid-auto-column-sm {
     grid-template-columns: repeat(auto-fit, clamp(50px, 27%, 200px));
     grid-auto-flow: column;
