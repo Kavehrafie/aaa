@@ -63,11 +63,14 @@ body:not(.browse) #content {
     display: flex;
     gap: var(--grid-gap);
     padding-bottom: 1em;
+    align-items: baseline;
 }
 
 .flex .asset {
     display: flex;
     flex-direction: column;
+    flex-basis: min-content;
+    flex-grow: 1;
 }
 .flex .asset img {
     width: 100%;
