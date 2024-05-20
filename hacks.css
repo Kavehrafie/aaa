@@ -69,11 +69,15 @@ body:not(.browse) #content {
 .flex .asset {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
 }
 .flex .asset img {
     width: 100%;
     object-fit: contain;
+}
+
+.asset.grow {
+    flex-grow: 1;
+    width: 100%;
 }
 
 .flex a {
