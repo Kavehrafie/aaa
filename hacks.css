@@ -69,7 +69,6 @@ body:not(.browse) #content {
 .flex .asset {
     display: flex;
     flex-direction: column;
-    flex-basis: min-content;
     flex-grow: 1;
 }
 .flex .asset img {
