@@ -91,6 +91,10 @@ body:not(.browse) #content {
     display: inline;
 }
 
+.asset p:last-child {
+    margin-bottom: 0;
+}
+
 .grid.grid-auto-column-sm {
     grid-template-columns: repeat(auto-fit, clamp(50px, 27%, 200px));
     grid-auto-flow: column;
