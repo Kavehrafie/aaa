@@ -89,6 +89,10 @@ body:not(.browse) #content {
     max-height: 450px;
 }
 
+.h-30svh {
+    height: 30svh;
+}
+
 .flex-center {
     justify-content: center;
 }
