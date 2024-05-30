@@ -23,9 +23,12 @@ body:not(.browse) #content {
     border-top: 1px solid #8E8D8A;
 }
 
-
+/* Menu styles */
+.is-submenu-item:last-child {
+    border-bottom: 1px solid #8E8D8A;
+}
 .dropdown.menu li {
-    width: 20ch;
+    width: 18ch;
 }
 
 .dropdown.menu li a {
@@ -34,6 +37,11 @@ body:not(.browse) #content {
 .dropdown.menu>li.is-dropdown-submenu-parent>a {
     color: #62605c;
 }
+
+.is-dropdown-submenu{
+    width: 18ch;
+}
+
 
 /* Index page styling */
 
