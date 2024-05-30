@@ -39,11 +39,13 @@ body:not(.browse) #content {
     color: #dddce4;
 }
 
+
 .dropdown.menu li a:hover {
     background: #dddce4;
 }
 
-.dropdown.menu>li.is-dropdown-submenu-parent>a {
+.dropdown.menu>li.is-dropdown-submenu-parent>a,
+.dropdown.menu>li.active.is-dropdown-submenu-parent>a{
     color: #62605c;
 }
 
