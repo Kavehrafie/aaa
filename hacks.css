@@ -25,11 +25,13 @@ body:not(.browse) #content {
 
 
 .dropdown.menu li {
-    width: 10ch;
-    color: #62605c;
+    width: 20ch;
 }
 
 .dropdown.menu li a {
+    color: #62605c;
+}
+.dropdown.menu>li.is-dropdown-submenu-parent>a {
     color: #62605c;
 }
 
