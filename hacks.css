@@ -24,7 +24,7 @@ body:not(.browse) #content {
 }
 
 
-.dropdown .menu li {
+.dropdown.menu li {
     min-width: 5ch;
 }
 
