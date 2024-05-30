@@ -23,6 +23,11 @@ body:not(.browse) #content {
     border-top: 1px solid #8E8D8A;
 }
 
+
+.dropdown .menu li {
+    min-width: 5ch;
+}
+
 /* Index page styling */
 
 .article__item {
