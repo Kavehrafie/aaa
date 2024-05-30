@@ -26,6 +26,7 @@ body:not(.browse) #content {
 
 .dropdown.menu li {
     min-width: 5ch;
+    color: #62605c;
 }
 
 /* Index page styling */
