@@ -28,7 +28,7 @@ body:not(.browse) #content {
     border-bottom: 1px solid #8E8D8A;
 }
 .dropdown.menu li {
-    width: 18ch;
+    width: 19ch;
 }
 
 .dropdown.menu li a {
@@ -39,9 +39,12 @@ body:not(.browse) #content {
 }
 
 .is-dropdown-submenu{
-    width: 18ch;
+    background: none;
 }
 
+li.is-submenu-item.is-dropdown-submenu-item {
+    width: 19ch;
+}
 
 /* Index page styling */
 
