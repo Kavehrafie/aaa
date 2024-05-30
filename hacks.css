@@ -38,12 +38,12 @@ body:not(.browse) #content {
     color: #62605c;
 }
 
-.is-dropdown-submenu{
-    background: none;
+.submenu{
+    background: none !important;
 }
 
 li.is-submenu-item.is-dropdown-submenu-item {
-    width: 19ch;
+    width: 21ch;
 }
 
 /* Index page styling */
