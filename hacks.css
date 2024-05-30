@@ -35,6 +35,10 @@ body:not(.browse) #content {
     color: #62605c;
 }
 
+.dropdown.menu li.active a {
+    color: #dddce4;
+}
+
 .dropdown.menu li a:hover {
     background: #dddce4;
 }
