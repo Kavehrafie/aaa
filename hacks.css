@@ -25,7 +25,11 @@ body:not(.browse) #content {
 
 
 .dropdown.menu li {
-    min-width: 5ch;
+    width: 5ch;
+    color: #62605c;
+}
+
+.dropdown.menu li a {
     color: #62605c;
 }
 
