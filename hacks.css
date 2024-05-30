@@ -44,7 +44,6 @@ body:not(.browse) #content {
     background: #dddce4;
 }
 
-.dropdown.menu>li.is-dropdown-submenu-parent>a,
 li.is-submenu-item>a{
     color: #62605c !important;
 }
