@@ -31,12 +31,13 @@ body:not(.browse) #content {
     width: 19ch;
 }
 
-.dropdown.menu li a {
+.dropdown.menu li a,
+.dropdown.menu>li.is-dropdown-submenu-parent>a{
     color: #62605c;
 }
 
-.dropdown.menu li.active a,
-.dropdown.menu>li.is-dropdown-submenu-parent>a {
+.dropdown.menu li.active a
+{
     color: #dddce4;
 }
 
