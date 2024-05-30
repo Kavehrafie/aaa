@@ -46,7 +46,7 @@ body:not(.browse) #content {
 
 .dropdown.menu>li.is-dropdown-submenu-parent>a,
 li.is-submenu-item>a{
-    color: #62605c;
+    color: #62605c !important;
 }
 
 .submenu{
