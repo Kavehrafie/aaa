@@ -183,20 +183,13 @@ li.is-submenu-item.is-dropdown-submenu-item {
     padding: 1em 0;
 }
 
-@media (width <= 1920px) {
-    .grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-
-@media (width <= 960px) {
+@media (width > 760px) {
     .h-30svh {
         height: 30svh;
         min-height: 350px;
     }
 
-    .h-40svh  {
+    .h-40svh {
         height: 40svh;
         min-height: 450px;
     }
@@ -206,6 +199,16 @@ li.is-submenu-item.is-dropdown-submenu-item {
         height: 100%;
         width: 100%;
     }
+}
+
+@media (width <= 1920px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+@media (width <= 960px) {
     .grid.grid-auto-column-sm {
         grid-template-columns: repeat(auto-fit, clamp(50px, 27%, 200px));
     }
