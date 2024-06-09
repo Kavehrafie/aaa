@@ -124,21 +124,6 @@ li.is-submenu-item.is-dropdown-submenu-item {
     max-height: 450px;
 }
 
-.h-30svh {
-    height: 30svh;
-    min-height: 350px;
-}
-
-.h-40svh  {
-    height: 40svh;
-    min-height: 450px;
-}
-
-.h-30svh img, .h-40svh img {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-}
 .flex-center {
     justify-content: center;
 }
@@ -206,17 +191,27 @@ li.is-submenu-item.is-dropdown-submenu-item {
 
 
 @media (width <= 960px) {
+    .h-30svh {
+        height: 30svh;
+        min-height: 350px;
+    }
+
+    .h-40svh  {
+        height: 40svh;
+        min-height: 450px;
+    }
+
+    .h-30svh img, .h-40svh img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
     .grid.grid-auto-column-sm {
         grid-template-columns: repeat(auto-fit, clamp(50px, 27%, 200px));
-
     }
-
     .grid.grid-auto-column-md {
         grid-template-columns: repeat(auto-fit, clamp(100px, 30%, 250px));
-
-
     }
-
     .grid {
         grid-template-columns: repeat(2, 1fr);
     }
