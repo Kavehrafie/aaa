@@ -256,5 +256,12 @@ li.is-submenu-item.is-dropdown-submenu-item {
     font-size: 1em;
 }
 
+/* Browsing artwork section */
+.resource-link {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
 
+.
 /*https://cdn.jsdelivr.net/gh/Kavehrafie/aaa/hacks.css*/
