@@ -126,8 +126,15 @@ li.is-submenu-item.is-dropdown-submenu-item {
 
 .h-30svh {
     height: 30svh;
+    min-height: 350px;
 }
-.h-30svh img {
+
+.h-40svh  {
+    height: 40svh;
+    min-height: 450px;
+}
+
+.h-30svh img, .h-40svh img {
     object-fit: cover;
     height: 100%;
     width: 100%;
