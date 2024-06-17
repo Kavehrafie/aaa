@@ -207,7 +207,7 @@ li.is-submenu-item.is-dropdown-submenu-item {
     }
 }
 
-@media only screen and (device-width <= 1600px) and (orientation: portrait) {
+@media  (max-device-width: 1600px) {
     .grid {
         grid-template-columns: repeat(3, 1fr);
     }
