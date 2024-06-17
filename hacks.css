@@ -205,11 +205,25 @@ li.is-submenu-item.is-dropdown-submenu-item {
     .grid {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .caption p {
+        display: none;
+    }
+    .caption p.link-title, .caption p.author {
+        display: block;
+    }
 }
 
 @media  (max-device-width: 1600px) {
     .grid {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .caption p {
+        display: none;
+    }
+    .caption p.link-title, .caption p.author {
+        display: block;
     }
 }
 
