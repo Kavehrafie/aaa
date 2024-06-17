@@ -201,7 +201,7 @@ li.is-submenu-item.is-dropdown-submenu-item {
     }
 }
 
-@media (width <= 1920px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (width <= 2400px) and (-webkit-min-device-pixel-ratio: 2) {
     .grid {
         grid-template-columns: repeat(3, 1fr);
     }
