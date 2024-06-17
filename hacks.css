@@ -212,6 +212,10 @@ li.is-submenu-item.is-dropdown-submenu-item {
     .caption p.link-title, .caption p.author {
         display: block;
     }
+    .article__item {
+        height: auto;
+    }
+
 }
 
 @media  (max-device-width: 1600px) {
@@ -224,6 +228,10 @@ li.is-submenu-item.is-dropdown-submenu-item {
     }
     .caption p.link-title, .caption p.author {
         display: block;
+    }
+
+    .article__item {
+        height: auto;
     }
 }
 
