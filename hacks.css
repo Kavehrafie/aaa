@@ -213,7 +213,15 @@ li.is-submenu-item.is-dropdown-submenu-item {
         display: block;
     }
     .article__item {
-        height: auto;
+        height: 100%;
+    }
+
+    .caption p.link-title {
+        font-size: 25px;
+    }
+
+    .caption p.author {
+        font-size: 20px;
     }
 
 }
@@ -230,8 +238,16 @@ li.is-submenu-item.is-dropdown-submenu-item {
         display: block;
     }
 
+    .caption p.link-title {
+        font-size: 25px;
+    }
+
+    .caption p.author {
+        font-size: 20px;
+    }
+
     .article__item {
-        height: auto;
+        height: 100%;
     }
 }
 
