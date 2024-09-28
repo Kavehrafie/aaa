@@ -206,9 +206,6 @@ li.is-submenu-item.is-dropdown-submenu-item {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .caption p {
-        display: none;
-    }
     .caption p.link-title, .caption p.author {
         display: block;
     }
@@ -231,9 +228,6 @@ li.is-submenu-item.is-dropdown-submenu-item {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .caption p {
-        display: none;
-    }
     .caption p.link-title, .caption p.author {
         display: block;
     }
@@ -264,6 +258,11 @@ li.is-submenu-item.is-dropdown-submenu-item {
 }
 
 @media (width <= 760px) {
+
+    .caption p {
+        display: none;
+    }
+
     .grid, .flex {
         display: block;
     }
